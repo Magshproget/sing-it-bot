@@ -63,9 +63,9 @@ npm install
 
 ## ⚙️ Налаштування (`.env`)
 
-Скопіюйте `.env.example` у `.env`:
+Створіть файл `.env`:
 ```bash
-cp .env.example .env
+touch .env
 chmod 600 .env
 ```
 
