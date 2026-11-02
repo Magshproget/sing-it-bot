@@ -1,0 +1,21 @@
+{
+  "name": "sing-it-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that recognises sung lyrics and plays the song",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test:offline": "node test/offline-test.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.2.0",
+    "better-sqlite3": "^12.6.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^17.4.0",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5"
+  }
+}
